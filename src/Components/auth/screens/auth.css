@@ -1,0 +1,97 @@
+
+/* .Center
+{
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .Wrapper
+{
+    display: flex;
+    flex-direction: column;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+}
+.Wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    border: #007bff;
+    border-color: #007bff;
+  }
+  
+  .Center {
+    text-align: center;
+    gap: 1rem;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    background-color: #62ebb0;
+    border-radius: .7rem;
+    padding: .5rem;
+    color: red;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+  .Selec{
+    margin-top: 1rem;
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+  }
+  input[type="radio"] {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 10px;
+  }
+  .Rbtn{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+  }
+  
+  .AuthForm {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .AuthForm label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .AuthForm input[type="text"],
+  .AuthForm input[type="password"],
+  .AuthForm button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    gap: 1rem;
+  }
+  
+  .AuthForm button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .AuthForm button:hover {
+    background-color: #0056b3;
+  }
+  
+  
